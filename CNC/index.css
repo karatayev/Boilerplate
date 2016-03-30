@@ -1,0 +1,36 @@
+
+h1 {
+	text-align: center;
+}
+
+
+body {
+	background: lightgrey;
+}
+
+
+#sidebar-menu {
+	background: grey;
+	position: fixed;
+	border: 1px solid black;
+	width: 12%;
+	height: 60%;
+}
+
+main {
+	background: grey;
+	position: absolute;
+	right: 10px;
+	overflow: auto;
+	width: 50%;
+}
+
+
+#tasks {
+	background: lightgrey;
+}
+
+a:hover {
+	border: 1px solid black;
+	color: black; 
+}
